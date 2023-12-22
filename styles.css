@@ -1,0 +1,222 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #071e3d !important; /* Цвет фона - темно-синий */
+    color: #fff; /* Цвет текста - белый */
+}
+
+header {
+    background-color: #0d2c54; /* Цвет фона заголовка - темно-синий */
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+#search-container {
+    text-align: center;
+    margin-top: 2em;
+}
+
+#search-input {
+    padding: 0.5em;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 60%;
+    background-color: #f0f0f0; /* Цвет фона поля ввода - светло-серый */
+    color: #333; /* Цвет текста в поле ввода - темно-серый */
+}
+
+#search-button {
+    padding: 0.5em 1em;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #1a1a1a; /* Цвет фона кнопки - темно-серый */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin-left: -4em;
+
+}
+
+    #search-button:hover {
+    background-color: #4CAF50; /* Зелёный цвет фона при наведении на кнопку */
+    color: #fff; /* Изменение цвета текста при наведении */
+}
+
+#search-icon {
+    margin-right: 0.5em;
+}
+
+#satellites {
+    margin-top: -13em;
+    margin-left: -103em;
+    display: flex;
+    justify-content: space-around;
+}
+
+#satellites img {
+    max-width: 100%;
+    height: 100px;
+    margin-bottom: 2em;
+    margin-top: -2em;
+}
+
+#satellites_2 {
+    margin-top: -8em;
+    margin-left: 102em;
+    display: flex;
+    justify-content: space-around;
+}
+
+#satellites_2 img {
+    max-width: 100%;
+    height: 100px;
+    margin-bottom: 2em;
+    margin-top: -0.3em;
+}
+
+#mka {
+    margin: 200px auto 10px; /* Изменение в этой строке */
+    padding: 80px;
+    text-align: center; /* Добавление этой строки для центрирования содержимого */
+}
+
+#mka img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px white;
+    margin-bottom: 20px; /* Добавление отступа снизу */
+}
+
+#mka a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#mka a:hover {
+    color: gray;
+}
+
+#Magion1 {
+    margin: 200px auto 10px; /* Изменение в этой строке */
+    padding: 80px;
+    text-align: left; /* Добавление этой строки для центрирования содержимого */
+    margin-top: -498px;
+}
+
+#Magion1 img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px white;
+    margin-bottom: 20px; /* Добавление отступа снизу */
+}
+
+#Magion1 a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-left: 155px;
+    max-width: 5.6%;
+}
+
+#Magion1 a:hover {
+    color: gray;
+}
+
+article {
+    margin: 200px auto;
+    padding: 80px;
+    margin-top: -540px;
+    margin-left: 1535px;
+    position: relative; /* Добавлен стиль position */
+}
+
+article img {
+    float: right;
+    margin-right: -20px;
+    margin-top: 1px;
+    max-width: 185%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px white;
+}
+
+article a {
+    display: block; /* Ссылка будет блочным элементом, переносится на новую строку */
+    margin-top: 15px; /* Отступ сверху для ссылки */
+    color: white; /* Цвет ссылки */
+    text-decoration: none; /* Убираем подчеркивание */
+    font-weight: bold; /* Жирный шрифт */
+    font-size: 1.2em;
+    max-width: 100%;
+
+}
+
+article a:hover {
+    color: gray; /* Изменение цвета при наведении */
+}
+
+#search-rules-link {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    clear: both;
+}
+
+#search-rules-link p {
+    margin: 10;
+}
+
+#search-rules-link a {
+    color: gray;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#search-rules-link a:hover {
+    color: blue;
+}
+
+#text1 {
+    text-align: center;
+    margin: 0 auto; /* Устанавливаем отступы слева и справа как "auto" для центрирования */
+    max-width: 1850px; /* Ширина блока */
+    padding: 20px; /* Добавим отступы для улучшенного визуального оформления */
+    margin-bottom: -100px;
+    margin-top: 205px;
+    background-color: #101010;
+    box-shadow: 0 0 30px rgba(55, 2.6, 855, 1.9);
+}
+
+#text1 h2 {
+    margin: 0; /* Убираем внешние отступы у h2 для лучшего центрирования */
+}
+
+#contact {
+    text-align: center;
+    margin: 50px auto; /* Изменение отступа */
+    padding: 50px;
+    background-color: #111100;
+    box-shadow: 0 0 10px rgba(0, 5, 0, 0.1);
+    max-width: 100%;
+}
+
+#contact h2 {
+    margin-bottom: 10px;
+}
+
+#contact a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
