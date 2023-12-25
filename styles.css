@@ -26,6 +26,7 @@ header {
     width: 60%;
     background-color: #f0f0f0; /* Цвет фона поля ввода - светло-серый */
     color: #333; /* Цвет текста в поле ввода - темно-серый */
+    box-shadow: 0 0 20px white;
 }
 
 #search-button {
@@ -37,12 +38,14 @@ header {
     border: none;
     border-radius: 4px;
     margin-left: -4em;
+    box-shadow: 0 0 20px gray;
 
 }
 
     #search-button:hover {
     background-color: #4CAF50; /* Зелёный цвет фона при наведении на кнопку */
     color: #fff; /* Изменение цвета текста при наведении */
+    box-shadow: 0 0 50px green;
 }
 
 #search-icon {
@@ -96,6 +99,7 @@ header {
     text-decoration: none;
     font-weight: bold;
     font-size: 1.2em;
+    transition: .5s;
 }
 
 #mka a:hover {
@@ -124,6 +128,7 @@ header {
     font-size: 1.2em;
     margin-left: 155px;
     max-width: 5.6%;
+    transition: .5s;
 }
 
 #Magion1 a:hover {
@@ -155,11 +160,13 @@ article a {
     font-weight: bold; /* Жирный шрифт */
     font-size: 1.2em;
     max-width: 100%;
+    transition: .5s;
 
 }
 
 article a:hover {
     color: gray; /* Изменение цвета при наведении */
+    top: 25px;
 }
 
 #search-rules-link {
@@ -177,6 +184,7 @@ article a:hover {
     color: gray;
     text-decoration: none;
     font-weight: bold;
+    transition: .5s;
 }
 
 #search-rules-link a:hover {
